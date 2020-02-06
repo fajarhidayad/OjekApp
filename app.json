@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Ojek",
+    "slug": "OjekApp",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/logoApp.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FDCB6E"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.Ojek.ojek",
+      "googleServicesFile": "./google-services.json",
+      "config": {
+        "googleMaps": { "apiKey": "AIzaSyAl_jzi_etjLgz0LV10ECyU5Hsntnfz6q0"}
+      }
+    }
+  }
+}
